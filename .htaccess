@@ -1,0 +1,9 @@
+# Le fichier demande la réécriture de l'url
+RewriteEngine On
+
+# Est-ce qu'on est bien en dehors d'un fichier (-f) et d'un dossier (-d)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Si oui, l'url s'adapte a ce a ce qu'on lui donne ci-dessous
+RewriteRule ^(.*)$ index.php?page=$1

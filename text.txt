@@ -1,0 +1,28 @@
+La stack utilusée :
+
+- PHP
+- Architecture MVC
+- 
+
+
+Les différentes étapes :
+
+- nous enregistrer
+- nous connecter
+- nous déconnecter
+- supprimer son compte
+
+- limiter la liste des personnages aux User
+- limiter la création aux creator et admin
+- limiter les modifications et les suppressions aux creator et à leurs créations
+- admin full acces aux modifs et suppréssions
+
+
+les axes d'améliorations :
+
+- Renforcer la sécurisation des mdp 
+- Sensibilité à la casse des noms d'utilisateurs
+- Rajouter des flash messages en cas de succés ou fail
+- Possibilité de visiter le profil d'un autre user et de voir sa collection de deck
+- Une section commentaire
+- Barre de recherche pour retrouver un personnages, une classe, un joueur...
