@@ -33,7 +33,7 @@
 Pour tester les différents rôles :
 
 ### 🔸 Admin
-- Identifiant : `userMan`  
+- Identifiant : `adminWoman`  
 - Mot de passe : `123`
 
 ### 🔸 Creator
@@ -41,7 +41,7 @@ Pour tester les différents rôles :
 - Mot de passe : `123`
 
 ### 🔸 User
-- Identifiant : `adminWoman`  
+- Identifiant : `userMan`  
 - Mot de passe : `123`
 
 > ⚠️ Tous les mots de passe sont hashés en base de données.  
